@@ -1,0 +1,82 @@
+html{
+    height: 100vh;
+}
+body, #couscous-body{
+    background-color: brown;
+    height: 100vh;
+    font-family: fantasy, sans-serif;
+    padding: 50px;
+    border: 1px solid transparent;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-family: monospace, sans-serif;
+    font-size: 50px;
+}
+.recipies{
+    font-size: 25px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    color: black;
+    font-size: 30px;
+}
+#couscous-body{
+    background-color: #d6ab1b;
+}
+#shawarma-body{
+    background-color: green;
+}
+#maftoul-body{
+    background-color: grey;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+#maftoul-body img{
+    width: 400px;
+    height: auto;
+}    
+.sub-title{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.description{
+    text-align: center;
+    font-size: 30px;
+}
+.recipies-ul{
+    width: 200px;
+    margin: 0 auto;
+}
+li{
+    margin-bottom: 10px;
+    color: black;
+    font-size: 22px;
+}
+h4{
+    color: white;
+    font-size: 22px;
+}
+ol{
+    width: 700px;
+    margin: 0 auto;
+}
+#home{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding-top: 50px;
+    margin: 0px auto;
+    text-align: center;
+
+}
